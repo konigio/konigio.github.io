@@ -1,0 +1,21 @@
+body {
+	counter-reset: example;
+}
+
+div.example-title:before {
+	counter-increment: example;
+	content: "Example " counter(example) ": ";
+}
+
+div.example {
+	  padding: .5em;
+    border-left-width: .5em;
+    border-left-style: solid;
+    border-color: #e0cb52;
+    background: #fcfaee;
+}
+
+div.example-title {
+    min-width: 7.5em;
+    color: #b9ab2d;
+}
