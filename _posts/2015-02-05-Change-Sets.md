@@ -8,16 +8,15 @@ that are added to and a set of statements that are removed from one version of t
 subsequent version.  The resource modified by the `ChangeSet` could be a discrete individual (Person, 
 Place, Thing, etc.) or a graph of individuals.
 
-```javascript
+
+<div class="example">
+	<div class="example-title">Original Resource</div>
+	<pre>
 	{
 		"@id" : "http://dbpedia.org/resource/Theodore_Roosevelt",
 		"givenName" : "Theodore",
 		"familyName" : "Roosevelt"
 	}
-```
-
-<div class="example">
-	<div class="example-title">Original Resource</div>
-
+	</pre>
 </div>
 
