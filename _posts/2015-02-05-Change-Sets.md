@@ -11,7 +11,7 @@ Place, Thing, etc.) or a graph of individuals.
 
 <div class="example">
 	<div class="example-title">Original Resource</div>
-	<pre>
+	<pre class="json">
 	{
 		"@id" : "http://dbpedia.org/resource/Theodore_Roosevelt",
 		"givenName" : "Theodore",

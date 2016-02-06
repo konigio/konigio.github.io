@@ -16,6 +16,11 @@ div.example {
 }
 
 div.example-title {
-    min-width: 7.5em;
-    color: #b9ab2d;
+	margin-bottom: 0.5em;
+  min-width: 7.5em;
+  color: #b9ab2d;
+}
+
+pre.json {
+	font-size: 80%;
 }
