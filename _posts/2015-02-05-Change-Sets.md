@@ -12,11 +12,11 @@ Place, Thing, etc.) or a graph of individuals.
 <div class="example">
 	<div class="example-title">Original Resource</div>
 	<pre class="json">
-	{
-		"@id" : "http://dbpedia.org/resource/Theodore_Roosevelt",
-		"givenName" : "Theodore",
-		"familyName" : "Roosevelt"
-	}
+  {
+    "@id" : "http://dbpedia.org/resource/Theodore_Roosevelt",
+    "givenName" : "Theodore",
+    "familyName" : "Roosevelt"
+  }
 	</pre>
 </div>
 
