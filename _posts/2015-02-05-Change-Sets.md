@@ -5,12 +5,12 @@ title: Change Sets
 
 A `ChangeSet` describes the delta between two versions of a resource.  It contains a set of statements 
 that are added to and a set of statements that are removed from one version of the resource to produce the 
-next version.  The resource modified by a `ChangeSet` could be a single individual (Person, 
+next version.  The resource modified by a `ChangeSet` may be a single individual (Person, 
 Place, Thing, etc.) or a graph of individuals.
 
 Suppose you start with the following resource...
 <div class="example">
-	<div class="example-title">Version 1</div>
+	<div class="example-title">Original Resource</div>
 	<pre class="json">
   {
     "@context" : "http://schema.org/",
@@ -52,7 +52,7 @@ Suppose you start with the following resource...
 Then, the resulting resource would be...
 
 <div class="example">
-  <div class="example-title">Version 2</div>
+  <div class="example-title">Final Resource</div>
   <pre class="json">
   {
     "@context" : "http://schema.org/",
@@ -93,7 +93,7 @@ For instance, the ChangeSet from *Example 2* is equivalent to this one:
   </pre>
 </div>
 
-# Blank Nodes
+## Blank Nodes
 
 A traditional `ChangeSet` cannot describe changes to blank nodes because the identifier for a blank 
 node is unique only in the local document in which the node is described.  The Konig ChangeSet 
@@ -104,7 +104,7 @@ We'll explain how it works with another example.  Suppose we have the following 
 Teddy Roosevelt which includes information about his `birthPlace`.
 
 <div class="example">
-  <div class="example-title">Version 3</div>
+  <div class="example-title">Roosevelt v.3</div>
   <pre class="json">
   {
     "@context" : "http://schema.org/",
@@ -161,7 +161,7 @@ birth place.
 After applying the `ChangeSet`, we have the following description:
 
 <div class="example">
-  <div class="example-title">Version 4</div>
+  <div class="example-title">Roosevelt v.4</div>
   <pre class="json">
   {
     "@context" : "http://schema.org/",
