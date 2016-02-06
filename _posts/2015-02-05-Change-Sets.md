@@ -65,8 +65,8 @@ Then, the resulting resource would be...
 </div>
 
 As you can see in *Example 2*, traditional ChangeSets tend to be extremely verbose and not very
-readable because they rely on instances of `rdf:Statement` to express the additions and 
-removals.  The Konig ChangeSet Vocabulary includes terms that allow you to express the
+readable because they rely on instances of `rdf:Statement` to express additions and 
+removals.  The Konig ChangeSet Vocabulary includes terms that allow you to express 
 additions and removals using graphs.  In JSON-LD, this style of describing a `ChangeSet` is
 arguably more natural. 
 
