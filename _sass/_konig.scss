@@ -26,3 +26,9 @@ pre.json {
 	font-family: monospace;
 	tab-size: 2;
 }
+
+
+ol > li > ol > li {
+  list-style-type: lower-roman;
+  margin-top: 1em;
+}
