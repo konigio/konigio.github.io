@@ -14,14 +14,14 @@ Semantic models and concept maps form a mathematical structure known as a
 foundations of graph theory as a discipline.
 
 In 1736, Leonhard Euler wrote the seminal paper on graph theory. He demonstrated that it is impossible to
- devise a walk through <b>König</b>sberg that would cross each of the city's seven bridges exactly once.  Our logo, is a representation of the 
+ devise a walk through <b>K&#246;nig</b>sberg that would cross each of the city's seven bridges exactly once.  Our logo, is a representation of the 
  graph that Euler analyzed.
 
 <p><span style="font-size: 300%;"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Konigsberg_bridges.png" width="180" height="142" style="vertical-align:middle"> &rarr; <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/7_bridges.svg/179px-7_bridges.svg.png" width="179" height="143"  style="vertical-align:middle"> &rarr; <img src="https://konigio.github.io/images/konig-logo.png" width="150" height="150" style="vertical-align:middle"></span></p>
 
-The first textbook on graph theory, published in 1936, was written by Dénes König.  So we honor him, too.
+The first textbook on graph theory, published in 1936, was written by D&#233;nes K&#246;nig.  So we honor him, too.
 
-Finally, *König* means "King" in German.  We hope that the Konig tools come to be recognized as the king of all semantic
+Finally, *K&#246;nig* means "King" in German.  We hope that the Konig tools come to be recognized as the king of all semantic
 modeling tools.
 
 ### More Information
