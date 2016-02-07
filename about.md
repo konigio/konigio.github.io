@@ -10,7 +10,7 @@ early stages of development.
 
 ### More Information
 
-<table>
+<table class="middle-aligned-table">
   <tr>
     <td><img src="https://groups.google.com/forum/my-groups-color.png"></td>
     <td>
@@ -29,8 +29,7 @@ early stages of development.
   </tr>
   <tr>
     <td><img src="https://apps.google.com/img/home-gmail-icon.png"></td>
-    <td>
-      Email us at <a href="mailto:konig.dev@gmail.com">konig.dev@gmail.com</a>
+    <td>Email us at <a href="mailto:konig.dev@gmail.com">konig.dev@gmail.com</a>
     </td>
   </tr>
 </table>

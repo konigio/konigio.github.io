@@ -32,3 +32,7 @@ ol > li > ol > li {
   list-style-type: lower-roman;
   margin-top: 1em;
 }
+
+table.middle-aligned-table td {
+	vertical-align: middle;
+}
