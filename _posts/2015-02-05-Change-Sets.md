@@ -66,7 +66,7 @@ Then, the resulting resource would be...
 
 As you can see in *Example 2*, traditional ChangeSets tend to be extremely verbose and not very
 readable because they rely on instances of `rdf:Statement` to express additions and 
-removals.  The Konig ChangeSet Vocabulary includes terms that allow you to express 
+removals.  The [Konig ChangeSet Vocabulary](http://www.konig.io/ns/kcs/) includes terms that allow you to express 
 additions and removals using graphs.  In JSON-LD, this style of describing a `ChangeSet` is
 arguably more natural. 
 
@@ -178,7 +178,36 @@ After applying the `ChangeSet`, we have the following description:
   </pre>
 </div>
 
-  
+## Usage Rules
 
+The following list describes the best practices for using `ChangeSet`s.
+  
+1. If the ChangeSet adds a new blank node, do not list any statements about that node in the `reference` graph.
+  Recall that the `reference` graph contains information about the prior state. If you are
+  adding a new blank node, then it had no prior state, and so it should not appear in the 
+  `reference` graph.
+  
+2. If a blank node is mutated by the ChangeSet, then the `reference` graph (or equivalently,
+   the set of `trace` statements) must contain enough information to uniquely identify the node.  
+   There are several options for identifying a blank node:
+      
+   1. **Inverse Functional Property**.  If a mutated blank node `n` contains an inverse functional property
+      `p` then it is sufficient to provide a single triple of the form `(n p o)` where `o`
+      is the value of the inverse functional property.
+      
+   2. **Composite Key**.  If a mutated blank node `n` is an instance of an `owl:Class` that declares a
+      list of unique keys via the `owl:hasKey` property, and `n` has a value for each property in the
+      list, then for each property `p` from the list if unique keys, include a triple of the form
+      `(n p o)` where `o` is the value of the property `p` on `n`.
+      
+   3. **Functional Property**.  Suppose a mutated blank node `n` is the object of some functional property `p` 
+      on a resource `s`.  Then include the triple `(s p n)` in the `reference` graph.  If `s` is
+      a blank node, then include enough information about `s` to identify it uniquely (i.e. apply the
+      usage rules to `s`).
+      
+   4. **Brute Force Method**. Include a complete description of the mutated node in its prior state.
+      That is, include every statement that contains the node as either the subject or object.
+      If the node is related to another blank node, then include enough information to 
+      uniquely identify the related node, too.  
 
 
