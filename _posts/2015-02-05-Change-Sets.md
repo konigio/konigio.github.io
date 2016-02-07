@@ -197,7 +197,7 @@ The following list describes the best practices for using `ChangeSet`s.
       
    2. **Composite Key**.  If a mutated blank node `n` is an instance of an `owl:Class` that declares a
       list of unique keys via the `owl:hasKey` property, and `n` has a value for each property in the
-      list, then for each property `p` from the list if unique keys, include a triple of the form
+      list, then for each property `p` from the list of unique keys, include a triple of the form
       `(n p o)` where `o` is the value of the property `p` on `n`.
       
    3. **Functional Property**.  Suppose a mutated blank node `n` is the object of some functional property `p` 
