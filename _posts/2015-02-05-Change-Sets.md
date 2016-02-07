@@ -188,11 +188,11 @@ The following list describes the best practices for using `ChangeSet`s.
   `reference` graph.
   
 2. If a blank node is mutated by the ChangeSet, then the `reference` graph (or equivalently,
-   the set of `trace` statements) must contain enough information to uniquely identify the node.  
-   There are several options for identifying a blank node:
+   the set of `trace` statements) must contain enough information to uniquely identify the node.  There are several
+   options for identifying a blank node:
       
    1. **Inverse Functional Property**.  If a mutated blank node `n` contains an inverse functional property
-      `p` then it is sufficient to provide a single triple of the form `(n p o)` where `o`
+      `p` then it is sufficient to provide a single triple of the form <br> `(n p o)` where `o`
       is the value of the inverse functional property.
       
    2. **Composite Key**.  If a mutated blank node `n` is an instance of an `owl:Class` that declares a
