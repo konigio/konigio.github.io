@@ -11,11 +11,12 @@ given resource can have many different descriptions in different formats.
 
 Thus, we might have the following URI values.
 
-| URI                                             | Comment                                                                   |
-|-------------------------------------------------|---------------------------------------------------------------------------|
-| https://www.konig.io/resource/Sergey_Brin       | The URI for a resource that represents one of the co-founders of Google   |
-| https://www.konig.io/resource/Sergey_Brin.xml   | The address where you can get a description of Sergey Brin in XML format  |
-| https://www.konig.io/resource/Sergey_Bring.json | The address where you can get a description of Sergey Brin in JSON format |
+
+| URI                                                             | Comment                                                                   |
+|-----------------------------------------------------------------|---------------------------------------------------------------------------|
+| `https://www.konig.io/resource/Sergey_Brin`         | The URI for a resource that represents one of the co-founders of Google   |
+| `https://www.konig.io/resource/Sergey_Brin.xml`    | The address where you can get a description of Sergey Brin in XML format  |
+| `https://www.konig.io/resource/Sergey_Bring.json` | The address where you can get a description of Sergey Brin in JSON format |
 
 Here's the important point: each *resource* is identified by a particular URI, and each
 *description* of a resource is identified by a different URI.

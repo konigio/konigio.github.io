@@ -36,3 +36,13 @@ ol > li > ol > li {
 table.middle-aligned-table td {
 	vertical-align: middle;
 }
+
+table {
+	border: 1px solid gray;
+}
+
+table th {
+	background-color: gray;
+	text-align: left;
+	font-weight: bold;
+}
