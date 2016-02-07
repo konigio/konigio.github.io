@@ -39,14 +39,22 @@ table.middel-aligned-table {
 
 table.middle-aligned-table td {
 	vertical-align: middle;
+  border: 0px;
 }
 
 table {
-	border: 1px solid #F0F0F0 ;
+	border: 1px solid #E0E0E0  ;
 }
 
 table th {
-	background-color: #F0F0F0 ;
+	background-color: #E0E0E0  ;
 	text-align: left;
 	font-weight: bold;
+	font-size: 80%;
+  border: 1px solid #E0E0E0  ;
+}
+table td {
+  text-align: left;
+  font-size: 80%;
+  border: 1px solid #E0E0E0  ;
 }
