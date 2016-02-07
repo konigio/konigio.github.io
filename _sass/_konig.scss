@@ -33,16 +33,20 @@ ol > li > ol > li {
   margin-top: 1em;
 }
 
+table.middel-aligned-table {
+  border: 0px;
+}
+
 table.middle-aligned-table td {
 	vertical-align: middle;
 }
 
 table {
-	border: 1px solid gray;
+	border: 1px solid #F0F0F0 ;
 }
 
 table th {
-	background-color: gray;
+	background-color: #F0F0F0 ;
 	text-align: left;
 	font-weight: bold;
 }
