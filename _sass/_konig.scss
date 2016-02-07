@@ -40,6 +40,7 @@ table.middel-aligned-table {
 table.middle-aligned-table td {
 	vertical-align: middle;
   border: 0px;
+  font-size: 100%;
 }
 
 table {
@@ -57,4 +58,5 @@ table td {
   text-align: left;
   font-size: 80%;
   border: 1px solid #E0E0E0  ;
+  padding: 0.5em;
 }
