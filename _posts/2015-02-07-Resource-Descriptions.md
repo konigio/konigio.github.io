@@ -76,23 +76,25 @@ that prescribes the elements that appear within a given view.
 There are many ways that a web site manager might choose to publish views of a resource.
 The Konig platform supports three design patterns
 
-1. **URL path parameters**  
-  
-  ```
+<ol>
+  <li> <b>URL path parameters</b>
+     <pre>
     GET /resource/Sergey_Brin/social.schema.person.json
-  ```
-2. **Query parameters** 
-  
-  ```
+    
+    </pre>
+    
+  <li><b>Query parameters</b>
+    <pre>
     GET /resource/Sergey_Brin?shape=social.schema.person
-  ```
   
-3. **Content Negotiation**  
-
-  ```
+    </pre>
+  
+  <li><b>Content Negotiation</b>  
+    <pre>
     GET /resource/Sergey_Brin
     Accept: application/vnd.konig.social.schema.person+json
-  ```
+    
+   </pre>
 
 We discuss these design patterns in some detail below.
 
