@@ -77,18 +77,19 @@ There are many ways that a web site manager might choose to publish views of a r
 The Konig platform supports three design patterns
 
 1. **URL path parameters**  
+  
   ```
-
     GET /resource/Sergey_Brin/social.schema.person.json
   ```
 2. **Query parameters** 
+  
   ```
-
     GET /resource/Sergey_Brin?shape=social.schema.person
   ```
+  
 3. **Content Negotiation**  
-  ```
 
+  ```
     GET /resource/Sergey_Brin
     Accept: application/vnd.konig.social.schema.person+json
   ```
