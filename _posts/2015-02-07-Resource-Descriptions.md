@@ -95,7 +95,7 @@ The Konig platform supports three design patterns
     Accept: application/vnd.konig.social.schema.person+json
     
    </pre>
-
+</ol>
 We discuss these design patterns in some detail below.
 
 
