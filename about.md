@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Konig is an effort to develop best-of-breed, open source tools for semantic modeling and concept mapping.  We are in the very
-early stages of development.
+Konig is a project that aims to produce best-of-breed, open source tools for semantic modeling 
+and concept mapping.  We are in the very early stages of development.
 
 ### Why the name *Konig*?
 
