@@ -22,12 +22,16 @@ div.example-title {
 }
 
 pre.json {
-	font-size: 75%;
-	font-family: monospace;
-	tab-size: 2;
+  font-size: 75%;
+  font-family: monospace;
+  tab-size: 2;
 }
 
-
+pre.code {
+  font-size: 75%;
+  font-family: monospace;
+  tab-size: 2;
+}
 ol > li > ol > li {
   list-style-type: lower-roman;
   margin-top: 1em;
