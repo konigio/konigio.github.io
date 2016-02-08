@@ -80,19 +80,20 @@ The Konig platform supports three design patterns
   <li> <b>URL path parameters</b>
      <pre class="code">
     GET /resource/Sergey_Brin/social.schema.person.json
-    </pre>
+    </pre></li>
     
   <li><b>Query parameters</b>
     <pre class="code">
     GET /resource/Sergey_Brin?shape=social.schema.person
-    </pre>
+    </pre></li>
   
   <li><b>Content Negotiation</b>  
     <pre class="code">
     GET /resource/Sergey_Brin
     Accept: application/vnd.konig.social.schema.person+json
-   </pre>
+   </pre></li>
 </ol>
+
 We discuss these design patterns in some detail below.
 
 
