@@ -44,8 +44,8 @@ as properties of some other resource.
 
 The predicate within an RDF `Statement` is the name for some `Property`.  Technically,
 the name for an RDF `Property` is a URI, so you can lookup information about the Property.
-In the narrative above, we've used short labels to name each `Property` instead of a URI
-just to keep things simple.
+To keep things simple in the narrative above, we've used short labels to name each `Property` 
+instead of a URI.
 
 We've been talking about using URI values as names for Individuals and Properties.  Technically, RDF allows
 you to use [IRI](https://en.wikipedia.org/wiki/Internationalized_resource_identifier) values, which 
