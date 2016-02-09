@@ -63,6 +63,6 @@ To summarize, we have the following glossary...
 | **Resource**            | Any node within a `Graph`.  `Individuals` and `Literals` are special kinds of `Resources`.                                                                     |
 | **NamedIndividual**     | An Individual that is named by an IRI.                                                                                                                                     |
 | **AnonymousIndividual** | An Individual that is *not* named by an IRI                                                                                                                                |
-| **Blank Node**          | Another name for an `AnonymousIndividual`                                                                                                                            |  
+| **Blank Node**          | Another word for `AnonymousIndividual`                                                                                                                            |  
 
   
