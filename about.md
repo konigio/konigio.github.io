@@ -11,7 +11,7 @@ and concept mapping.  We are in the very early stages of development.
 
 Semantic models and concept maps form a mathematical structure known as a 
 <a href="https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)">Graph</a>.  The name *Konig* honors the
-foundations of graph theory as a discipline.
+history of graph theory as a discipline.
 
 In 1736, Leonhard Euler wrote the seminal paper on graph theory. He demonstrated that it is impossible to
  devise a walk through <b>K&#246;nig</b>sberg that would cross each of the city's seven bridges exactly once.  Our logo, is a representation of the 

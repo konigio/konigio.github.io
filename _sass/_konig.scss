@@ -1,5 +1,6 @@
 body {
 	counter-reset: example;
+	counter-reset: rule;
 }
 
 div.example-title:before {
@@ -8,7 +9,7 @@ div.example-title:before {
 }
 
 div.example {
-	  padding: .5em;
+	  padding: 0.5em;
     border-left-width: .5em;
     border-left-style: solid;
     border-color: #e0cb52;
@@ -27,6 +28,24 @@ pre.json {
   tab-size: 2;
 }
 
+div.rule:before {
+	counter-increment: rule;
+	content: "Rule " counter(rule) ": ";
+}
+
+div.rule {
+	background-color: #d8f3d8;
+	color: #184e18;
+	padding: 4px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 5em;
+  text-indent: -4em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-weight: bold;
+	border: 1px solid #184e18;
+}
 pre.code {
   font-size: 75%;
   font-family: monospace;
