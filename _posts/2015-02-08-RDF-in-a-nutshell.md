@@ -37,9 +37,9 @@ dates, etc. are called `Literals`.  Nodes that represent people, places or thing
 
 Each `Individual` may be identified by a URI value.  This way people and machines can 
 lookup more information about the `Individual` by dereferencing the URI.  However, an `Individual`
-is not *required* to have a URI.  If it does have a URI, we say that it is a `NamedIndividual`.
-Otherwise, it is said to be an `AnonymousIndividual` or, in the vernacular, a *blank node*.  
-Blank nodes cannot be accessed directly because they do not have an address.  They can be accessed only 
+is not *required* to have a URI.  If it has a URI, we say that it is a `NamedIndividual`.
+Otherwise, we say it is an `AnonymousIndividual` or, in the vernacular, a *blank node*.  Blank nodes
+cannot be accessed directly because they do not have an address.  They can be accessed only 
 as properties of some other resource.
 
 The predicate within an RDF `Statement` is the name for some `Property`.  Technically,
