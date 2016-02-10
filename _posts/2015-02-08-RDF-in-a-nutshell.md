@@ -44,8 +44,8 @@ as properties of some other resource.
 
 The predicate within an RDF `Statement` is the name for some `Property`.  Technically,
 the name for an RDF `Property` is a URI, so you can lookup information about the Property.
-To keep things simple in the narrative above, we've used short labels to name each `Property` 
-instead of a URI.
+To keep things simple in the narrative above, we've used short labels to name properties and individuals 
+instead using URI values.
 
 We've been talking about using URI values as names for Individuals and Properties.  Technically, RDF allows
 you to use [IRI](https://en.wikipedia.org/wiki/Internationalized_resource_identifier) values, which 
@@ -63,6 +63,7 @@ To summarize, we have the following glossary...
 | **Resource**            | Any node within a `Graph`.  `Individuals` and `Literals` are special kinds of `Resources`.                                                                     |
 | **NamedIndividual**     | An Individual that is named by an IRI.                                                                                                                                     |
 | **AnonymousIndividual** | An Individual that is *not* named by an IRI                                                                                                                                |
-| **Blank Node**          | Another word for `AnonymousIndividual`                                                                                                                            |  
+| **Blank Node**          | Another word for `AnonymousIndividual`                                                                                                                               |  
+| **Property**            | A directed relationship from one `Resource` to another.                                                                                                                 |
 
   
