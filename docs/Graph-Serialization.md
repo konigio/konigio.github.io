@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: documentation
 title: Graph Serialization
+position: 2
 ---
 
 There are many formats for serializing the information in an RDF `Graph`.

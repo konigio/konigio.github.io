@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>Technical Documentation</h1>
+
+<ul>
+{% assign pages = site.pages | sort:"position" %}
+{% for pg in pages %}
+
+  {% if pg.position %}
+  <li><a href="{{pg.url}}">{{pg.title}}</a>
+  {% endif %}
+  
+{% endfor %}
+</ul>

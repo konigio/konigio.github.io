@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: documentation
 title: Change Sets
+position: 3
 ---
 
 
@@ -97,7 +98,7 @@ For instance, the ChangeSet from *Example 2* is equivalent to this one:
 ## Blank Nodes
 
 A traditional `ChangeSet` cannot describe changes to blank nodes because the identifier for a blank 
-node is unique only in the local document in which the node is described.  The Konig ChangeSet 
+node is meaningful only in the local document in which the node is described.  The Konig ChangeSet 
 Vocabulary addresses this problem.  It introduces the notion of a *reference* graph which provides 
 enough information to uniquely identify blank nodes that have been modified.
 

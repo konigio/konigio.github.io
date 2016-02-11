@@ -1,0 +1,16 @@
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+{% assign rm = url_parts | last %}
+{% assign base_url = page.url | replace: rm %}
+
+<div class="nav-menu-header">
+Contents
+</div>
+<nav class="nav-menu">
+{% assign pages = site.pages | sort:"position" %}
+{% for pg in pages %}
+  {% if pg.position %}
+  <a href="{{pg.url}}" {% if pg.url == page.url %}class="active"{% endif %}>{{pg.title}}</a>
+  {% endif %}
+{% endfor %}
+</nav>
