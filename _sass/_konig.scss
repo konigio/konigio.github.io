@@ -1,5 +1,38 @@
 body {
 	counter-reset: example;
+	height: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+#docs-page {
+	height: 100%;
+	background-color: rgb(233, 234, 237);
+}
+
+
+#docs-header {
+	height: 60px;
+	width: 1020px;
+	margin: auto;
+	line-height: 60px;
+}
+
+#docs-page-title {
+	font-size: 130%;
+}
+
+#docs-sub-title {
+	color: #969696;
+	font-size: 150%;
+	padding-left: 1em;
+	font-style: italic;
+}
+
+img.docs-avatar {
+	vertical-align: middle;
 }
 
 div.example-title:before {
@@ -14,29 +47,49 @@ div.example {
     border-color: #e0cb52;
     background: #fcfaee;
 }
+#leftnav {
+	float: left;
+	height: 100%;
+	width: 220px;
+	background-color: rgb(250, 250, 250);
+  border-right: 1px solid rgb(233, 234, 237);
+}
+
 div.nav-menu-header {
-	top: 120px;
   width: 220px;
-  position: absolute;
   padding: 0.5em;
   color: rgb(150, 150, 150);
-  background-color: rgb(250, 250, 250);
-  left: 10px;
-  border: 1px solid rgb(233, 234, 237);
   padding-right: 1em;
   font-weight: bold;
+  border-bottom:  1px solid rgb(233, 234, 237);
 }
 nav.nav-menu {
-	position: absolute;
-	background-color: rgb(250, 250, 250);
-	left: 10px;
-	top: 140px;
 	font-size: 80%;
-	border: 1px solid rgb(233, 234, 237);
 	padding-right: 1em;
 	padding-bottom: 1.5em;
-	padding-top: 0.5em;
 	width: 220px;
+}
+
+#main-content {
+	background-color: white;
+	width: 800px;
+	float: left;
+	padding-left: 2em;
+	padding-right: 2em;
+	overflow: auto;
+	height: 100%;
+}
+#docs-center {
+	width: 1020px;
+  margin: auto;
+	height: -moz-calc(100% - 120px);
+	/* WebKit */
+	height: -webkit-calc(100% - 120px);
+	/* Opera */
+	height: -o-calc(100% - 120px);
+	/* Standard */
+	height: calc(100% - 120px);
+	overflow: hidden;
 }
 
 nav.nav-menu a {

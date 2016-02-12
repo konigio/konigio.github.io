@@ -27,7 +27,7 @@ Consider the following statements:
 ~~~   
 
 Conceptually, a collection of statements forms a graph where subjects and objects are nodes,
-and the predicates are arrows connecting the nodes. Thus, the social network described above
+and the predicates are arrows connecting the nodes. The social network described above
 can be rendered graphically:
 
 ![Social Network](/images/socialNetwork.png) 
@@ -36,7 +36,7 @@ The nodes within an RDF graph are called `Resources`.  Simple data values like s
 dates, etc. are called `Literals`.  Nodes that represent people, places or things are called 
 `Individuals`.
 
-Each `Individual` may be identified by a URI value.  This way people and machines can 
+Each `Individual` may be identified by a URI value so that people and machines can 
 lookup more information about the `Individual` by dereferencing the URI.  However, an `Individual`
 is not *required* to have a URI.  If it has a URI, we say that it is a `NamedIndividual`.
 Otherwise, we say it is an `AnonymousIndividual` or, in the vernacular, a *blank node*.  Blank nodes

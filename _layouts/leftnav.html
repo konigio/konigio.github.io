@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/konig-favicon.png">
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+  	<div id="docs-page">
+  	
+  		<div id="docs-header">
+  			<a href="{{ site.baseurl }}/"><img src="{{ site.avatar }}" width="30" height="30" class="docs-avatar"/></a> 
+  			
+  			<span id="docs-page-title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></span> <span id="docs-sub-title">Technical Documentation</span>
+  			
+  		</div>
+  		
+  	
+			<div id="docs-center">
+  			<div id="leftnav">
+					<div class="nav-menu-header">
+					Contents
+					</div>
+					<nav class="nav-menu">
+					{% for pg in site.data.toc %}
+					  {% assign address = "/docs/" | append: pg.fileName | append: '/' %}
+					  {% assign label = pg.fileName | replace: '_', ' '%}
+					  <a href="/docs/{{pg.fileName}}" {% if address == page.url %}class="active"{% endif %}>{{label}}</a>
+					{% endfor %}
+					</nav>
+				</div>
+		    <div id="main-content">
+		      {{ content }}
+		    </div>
+			</div>	   
+	  </div>
+	
+	    {% include analytics.html %}
+  </body>
+  
+  <!-- 
+  
+   -->
+  	<!-- 
+	    <div class="wrapper-masthead">
+	    	
+	      <div class="container">
+	        <header class="masthead clearfix">
+	          <div style="float: left">
+	          
+	
+	          <div class="site-info">
+	            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+	            <p class="site-description">{{ site.description }}</p>
+	          </div>
+	          </div>
+	          <nav>
+	            <a href="{{ site.baseurl }}/">Blog</a>
+	            <a href="{{ site.baseurl }}/docs">Docs</a>
+	            <a href="{{ site.baseurl }}/about">About</a>
+	          </nav>
+	        </header>
+	      </div>
+	    </div>
+	 -->
+</html>
