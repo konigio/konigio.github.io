@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A New Look!
+title: Schema Generator Released
 ---
 
 Today we released a schema generator.  It takes SHACL and OWL statements as input and produces
