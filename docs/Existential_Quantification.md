@@ -15,7 +15,7 @@ Consider these statements in Turtle syntax:
 Those statements are equivalent to the following statements in English:
  
 > There exists some entity that is a contact point of Alice, and
-> it is the contact point for her at work.
+> this entity is the contact point for her at work.
 
 
 In predicate calculus, one would write:
@@ -57,21 +57,28 @@ Translated into predicate calculus, we have:
 The scope of the quantified variable `x` is now larger because it is coupled with another quantified variable `y`.
 We provide the formal definition for the scope of a blank node below.
 
-<table>
-<tr>
-<th>Scope</scope>
-<td>
+
 Let <code>x</code> be a blank node.  <code>Scope(x)</code> is a subgraph defined recursively 
-by the following rules. 
-<ol>
-	<li> <code>Scope(x)</code> contains every statement that has <code>x</code> as subject or object.</li>
-	<li> If <code>y</code> is a blank node connected to <code>x</code> then <code>Scope(y) &sub; Scope(x)</code>.</li>
-</ol>
-</td>
-</tr>
-</table>
+such that 
+
+1. `Scope(x)` contains every statement that has `x` as subject or object.
+2. If `y` is a blank node adjacent to `x` then `Scope(y)` &sub; `Scope(x)`
 
 
 We say that two blank nodes `a` and `b` are *simply equivalent* if every free variable in the scope of `a` 
 can be mapped to a corresponding free variable in the scope of `b`, the scopes are isomorphic under 
 the mapping, and `a` maps to `b`.
+
+Since the [graph isomorphism problem](https://en.wikipedia.org/wiki/Graph_isomorphism_problem) 
+is classified as NP, it follows that the problem of determining whether two blank nodes are equivalent is
+also NP.
+
+There are special cases where the graph isomorphism problem has an efficient solution in polynomial-time. 
+A planar graph is one such special case.
+
+A planar graph is a graph that can be drawn in a plane without having any of the edge intersect.
+
+A tree graph is a special
+
+
+

@@ -67,5 +67,18 @@ To summarize, we have the following glossary...
 | **Blank Node**          | Another word for `AnonymousIndividual`                                                                                                                               |  
 | **Property**            | A directed relationship from one `Resource` to another.                                                                                                                 |
 
-  
+Technically, `Literal` is a subclass of `Resource`.  Indeed, the official definition of [RDF Schema](https://www.w3.org/2000/01/rdf-schema#)
+contains the statement:
+
+~~~
+   rdfs:Literal  rdfs:subClassOf rdfs:Resource .
+~~~
+
+However, most authors and RDF toolkits use the term `Resource` as a synonym for `Individual`
+(i.e. the union of blank nodes and resources identified by an IRI).  For most authors, `Resource` 
+and `Literal` are treated as disjoint classes.  
+
+To avoid confusion, we use the term `Node` to denote the set of Individuals and Literals.  Thus, 
+for us, `Node` is equivalent to the formal definition of `Resource`.
+
 
