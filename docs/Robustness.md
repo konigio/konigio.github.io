@@ -6,7 +6,7 @@ title: Robustness
 Traditional object-oriented programming languages like Java or C# use [frame-based](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence)) knowledge representations. 
 In a frame-based representation, each class defines a fixed set of slots (i.e. fields) for
 the properties of an object.  A class may inherit properties from ancestors within the class
-hierarchy, but the total set of slots is fixed.  In short, there is one and only one 
+hierarchy, but the total set of slots is fixed.  There is one and only one 
 representation for any given class.
 
 By contrast, semantic models focus on atomic *statements* about a resource.  Each statement 
