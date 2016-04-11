@@ -16,7 +16,7 @@ includes the following hierarchy:
 			
 It's a bit surprising that there is no class for `DesktopApplication`, but one
 can certainly add such a class.  The tricky bit, though, is deciding how to model particular
-applications.  Consider for instance a application like gmail.  Should we model gmail as a *subclass*
+applications.  Consider for instance an application like gmail.  Should we model gmail as a *subclass*
 of `SoftwareApplication` or an *instance* of `SoftwareApplication`?  It has incarnations
 as both a `WebApplication` and a `MobileApplication`. 
 
