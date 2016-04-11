@@ -12,7 +12,7 @@ Here's a partial listing of the class hierarchy at schema.org:
 		* Article
 			* NewsArticle
 			* Report
-			* ScholarlyArtical
+			* ScholarlyArticle
 			* SocialMediaPosting
 		* Blog
 		* Book
