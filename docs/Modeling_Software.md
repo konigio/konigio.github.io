@@ -1,9 +1,9 @@
 ---
 layout: documentation
-title: Modeling Software Applications
+title: Modeling Software
 ---
 
-Modeling software applications can be tricky.  The [Schema.org](http://schema.org/SoftwareApplication)
+Software applications can be tricky to model.  The [Schema.org](http://schema.org/SoftwareApplication)
 vocabulary defines some classes that provide a reasonable starting point for a semantic model. It 
 includes the following hierarchy:
 
@@ -16,13 +16,14 @@ includes the following hierarchy:
 			
 It's a bit surprising that there is no class for `DesktopApplication`, but one
 can certainly add such a class.  The tricky bit, though, is deciding how to model particular
-applications.  Consider for instance a application like gmail.  Should we model gmail as a subclass
-of `SoftwareApplication` or an instance of `SoftwareApplication`?  It has incarnations
+applications.  Consider for instance a application like gmail.  Should we model gmail as a *subclass*
+of `SoftwareApplication` or an *instance* of `SoftwareApplication`?  It has incarnations
 as both a `WebApplication` and a `MobileApplication`. 
 
 We must choose between the following alternatives:
 
 **Option 1: GMail as a Class**
+
 ```
 :GMailApp a owl:Class ;
 	rdfs:subClassOf schema:SoftwareApplication ;
@@ -31,6 +32,7 @@ We must choose between the following alternatives:
 ```
 
 **Option 2: GMail as an Individual**
+
 ```
 :GMailWeb rdf:type schema:WebApplication ;
 	rdfs:comment """
