@@ -98,8 +98,8 @@ To model these relationships, we first need a way to express that a given applic
 another application.  In Schema.org, we have the `hasPart` and `isPartOf` relationships.
 
 Consider the following statements:
-```
 
+```
 :GoogleApp rdf:type owl:Class ;
   rdfs:subClassOf schema:SoftwareApplication ;
   rdfs:comment """
