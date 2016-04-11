@@ -18,7 +18,7 @@ is a triple of the form:
 
 One can construct many different representations (i.e. descriptions) of a resource.
 Each description conveys a different set of statements.  At bottom, a data contract
-as merely one particular view of a resource or set of resources.  When designing a data 
+is merely one particular view of a resource or set of resources.  When designing a data 
 contract, you are choosing the set of statements to transmit from one party to another.
 
 The main point of semantic technologies is that any description of a resource can 
