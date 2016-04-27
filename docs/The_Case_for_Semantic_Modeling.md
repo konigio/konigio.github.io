@@ -51,7 +51,7 @@ Given a stream of such records you can compute some interesting metrics includin
 *  The number of times that a given social media posting has been liked
 *  The number of times that a given actor has liked something
 
-You might produce reports that aggregate these metrics by day, week and month.  The product manager is delighted with the result.  
+Suppose you produce reports that aggregate these metrics by day, week and month.  Your product manager is delighted with the result.  
 
 A couple months later, she asks that you slice the metrics based on the educational organization to
 which the actor belongs.
