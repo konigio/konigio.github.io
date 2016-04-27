@@ -8,8 +8,8 @@ just work with Avro schema and skip the semantic model altogether?
 
 The short answer is that Avro schemas are brittle because they express a physical model for data on the wire in 
 one particular format.  But a given resource can have more than one description; there may be multiple
-*views* of a given resource.  While Avro supports schema evolution, it does not offer any mechanism for
-stitching together alternative views of a resource.  
+*views* of a given resource.  While Avro supports schema evolution to some extent, it does not offer a
+mechanism for stitching together alternative views of a resource.  
 
 Let's look at a concrete example.  Suppose you decide to use the 
 [W3C Activity Streams Vocabulary](https://www.w3.org/TR/activitystreams-vocabulary/) to report
