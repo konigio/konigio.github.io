@@ -157,9 +157,9 @@ structures that we presented above.
   .
 ```
 
-  ### Linked Data Shape
+### Linked Data Shape
 
-  ```
+```
   <LinkedDataPersonShape> a sh:Shape ;
     sh:scopeClass schema:Person ;
     kol:equivalentRelationalShape <RelationalPersonShape> ;
