@@ -24,8 +24,13 @@ The first textbook on graph theory, published in 1936, was written by D&#233;nes
 Finally, *K&#246;nig* means "King" in German.  We hope that the Konig tools come to be recognized as the king of all semantic
 modeling tools.
 
+### License
+
+All software released by the Konig project is made available under the Apache 2.0 license.
+
 ### More Information
 
+<div>
 <table class="middle-aligned-table">
   <tr>
     <td><img src="https://groups.google.com/forum/my-groups-color.png"></td>
@@ -49,5 +54,5 @@ modeling tools.
     </td>
   </tr>
 </table>
-
+</div>
 
