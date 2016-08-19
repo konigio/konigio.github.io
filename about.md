@@ -42,16 +42,15 @@ All software released by the Konig project is made available under the Apache 2.
   </tr>
   <tr>
     <td><img src="https://g.twimg.com/Twitter_logo_blue.png" width="80" height="65"></td>
-    <td>Follow us on twitter: <a href="https://twitter.com/konigdev">@konigdev</a>
+    <td>Follow us on twitter: <a href="https://twitter.com/konigdev">@konigdev</a></td>
   </tr>
   <tr>
-    <td><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" height="80" width="80">
-    <td>Browse the <a href="https://github.com/konigio">Konig Repository</a> on GitHub.
+    <td><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" height="80" width="80"></td>
+    <td>Browse the <a href="https://github.com/konigio">Konig Repository</a> on GitHub.</td>
   </tr>
   <tr>
     <td><img src="https://apps.google.com/img/home-gmail-icon.png"></td>
-    <td>Email us at <a href="mailto:konig.dev@gmail.com">konig.dev@gmail.com</a>
-    </td>
+    <td>Email us at <a href="mailto:konig.dev@gmail.com">konig.dev@gmail.com</a></td>
   </tr>
 </table>
 
