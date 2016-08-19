@@ -30,7 +30,7 @@ All software released by the Konig project is made available under the Apache 2.
 
 ### More Information
 
-<div>
+
 <table class="middle-aligned-table">
   <tr>
     <td><img src="https://groups.google.com/forum/my-groups-color.png"></td>
@@ -42,7 +42,7 @@ All software released by the Konig project is made available under the Apache 2.
   </tr>
   <tr>
     <td><img src="https://g.twimg.com/Twitter_logo_blue.png" width="80" height="65"></td>
-    <td>Follow us on twitter: <a href="https://twitter.com/konigdev">@konigdev</href>
+    <td>Follow us on twitter: <a href="https://twitter.com/konigdev">@konigdev</a>
   </tr>
   <tr>
     <td><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" height="80" width="80">
@@ -54,5 +54,4 @@ All software released by the Konig project is made available under the Apache 2.
     </td>
   </tr>
 </table>
-</div>
 
