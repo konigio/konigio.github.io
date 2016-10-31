@@ -89,6 +89,7 @@ Push the branch to github:
 ```
 $ git push origin [name_of_your_new_branch]
 ```
+
 # Publishing Changes
 
 
