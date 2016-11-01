@@ -101,3 +101,41 @@ When you are ready to publish changes that resolve an issue follow these steps:
 4.  Create a pull request
 
 The easiest way to create a pull request is through the Github UI.  Just visit your branch and then click the `New pull request` button.
+
+# Create a new Google Appengine Project
+
+Use the following procedure to create a new project for
+Google Appengine.
+
+1.  In Eclipse, choose New > Project...
+2.  Select `Maven Project` and click `Next`
+3.  Check the box for `Create a simple project` and click `Next`
+4.  Fill out the form that provides the attributes for your pom file. Be sure to include the Parent Project attributes:
+  - Parent Group Id: io.konig
+  - Parent Artifact Id: konig-parent
+5. Click `Finish`
+
+Finally, add the following dependencies to your POM:
+
+```
+<dependencies>
+		<dependency>
+			<groupId>com.google.appengine</groupId>
+			<artifactId>appengine-api-1.0-sdk</artifactId>
+			<version>${appengine.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.appengine</groupId>
+			<artifactId>appengine-testing</artifactId>
+			<version>${appengine.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+```
