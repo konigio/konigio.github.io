@@ -21,38 +21,33 @@ the same name as its maven artifact ID.
 
 | Artifact ID     | Description                                                |
 |-----------------|------------------------------------------------------------|
-| konig-core      | A library for core classes (Graph, Vertex, Edge, etc.)     |
-| konig-shacl     | A library for managing data shapes in accordance with the W3C SHACL standard |
+| konig-java      | A library of Java classes that support Konig generated POJO's | 
+| konig-path-parser | An ANTLR parser Konig's extension of SPARQL Paths        |
+| konig-core      | A library for core classes (Graph, Vertex, Edge, Shape, etc.)   |
+| konig-transform | Tools for transforming data from one Shape to another      |
+| konig-transform-maven-plugin | A Maven plugin which performs Shape transformations |
+| konig-maven-diff | A Maven plugin which computes the difference between two graphs |
+| konig-gae-datastore | A Runtime library for applications that use Google DataStore |
+| konig-gae-generator | Tools for generating Google Datastore persisters and loaders |
 | konig-schemagen | Tools for building code generators based on semantic models |
 | konig-schemagen-maven-plugin | A Maven plugin for generating code based on semantic models |
 | konig-ldp       | An implementation of the W3C Linked Data Platform          |
 | konig-ldp-maven-plugin | A Maven plugin used to deploy resources to a linked data platform |
+| konig-sql-core | Parser of SQL CREATE TABLE statements enriched with semantic markup |
+| konig-sql      | Tools that interpret the semantic markup in SQL statements and generate RDF artifacts |
+| konig-sql-maven-plugin | A Maven plugin that generates RDF artifacts based on semantic markup in SQL statements |
 
 The Github repository includes other sub-projects, but these are the only ones
 that build automatically as part of our continuous integration process.
 
-# Branches for new Releases
+# Eclipse Plugins
+The following Eclipse plugins are recommended:
 
-We create a separate branch for each release of the Konig project.  The name for a release branch should match the following pattern:
+* ANTLR 4 SDK (if you will be designing ANTLR Parsers)
+* Google App Engine Java SDK (if you will be developing GAE applications)
+* Google App Engine Maven Integration (if you will be developing GAE applications)
 
-```
-   release/{major}.{minor}.{patch}
-```
 
-For example:
-
-```
-   release/2.0.0
-```
-
-The `major` version number is incremented whenever a non-backward
-compatible change is introduced.
-
-The `minor` version number is incremented whenever a new feature is
-introduced.
-
-The `patch` number is incremented whenever the release offers only
-bug fixes (i.e. no new features).
 
 # Feature Branches
 When you are ready to work on a new feature or a bug fix, you should create your
