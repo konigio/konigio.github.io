@@ -1,7 +1,6 @@
 ---
 layout: documentation
 title: REST API Design
-position: 1
 ---
 
 The Konig framework includes a component that implements a REST API for
